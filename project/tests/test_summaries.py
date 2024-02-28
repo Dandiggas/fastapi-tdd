@@ -1,6 +1,6 @@
 import json
 
-import pytest # noqa: F401
+import pytest  # noqa: F401
 
 
 def test_create_summary(test_app_with_db):
