@@ -82,7 +82,7 @@ jobs:
         needs: [build, test]
         env:
             HEROKU_APP_NAME: enigmatic-fjord-87640
-            HEROKU_REGISTRY_IMAGE: registry.heroku.com/$enigmatic-fjord-87640/summarizer
+            HEROKU_REGISTRY_IMAGE: registry.heroku.com/enigmatic-fjord-87640/summarizer
         steps:
           - name: Checkout
             uses: actions/checkout@v3
